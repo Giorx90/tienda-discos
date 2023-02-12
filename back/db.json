@@ -1,0 +1,40 @@
+[{
+    "id": 1,
+    "name": "Folklore",
+    "price": 37.86,
+    "author": "Taylor Swift",
+    "stars": 4,
+    "image": ""
+},
+{
+    "id": 2,
+    "name": "Hogar",
+    "price": 29.05,
+    "author": "Izal",
+    "stars": 4,
+    "image": ""
+},
+{
+    "id": 3,
+    "name": "Motomami",
+    "price": 21.99,
+    "author": "Rosalía",
+    "stars": 5,
+    "image": ""
+},
+{
+    "id": 4,
+    "name": "Dance Fever",
+    "price": 43.73,
+    "author": "Florence + The Machine",
+    "stars": 5,
+    "image": ""
+},
+{
+    "id": 5,
+    "name": "Un día en el mundo",
+    "price": 21.99,
+    "author": "Vetusta Morla",
+    "stars": 4,
+    "image": ""
+}]
