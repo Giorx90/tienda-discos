@@ -39,6 +39,46 @@
             "author": "Vetusta Morla",
             "stars": 4,
             "image": "./portadas/un-dia-en-el-mundo.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Multitude",
+            "price": 39.93,
+            "author": "Stromae",
+            "stars": 4.5,
+            "image": "./portadas/multitude.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Atlántico",
+            "price": 22.99,
+            "author": "Xoel López",
+            "stars": 4.5,
+            "image": "./portadas/atlantico.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Calambre",
+            "price": 24.99,
+            "author": "Nathy Peluso",
+            "stars": 4.5,
+            "image": "./portadas/calambre.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Salvavidas de hielo",
+            "price": 27.84,
+            "author": "Jorge Drexler",
+            "stars": 5,
+            "image": "./portadas/salvavidas-de-hielo.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Matriz",
+            "price": 13.45,
+            "author": "Rozalén",
+            "stars": 4,
+            "image": "./portadas/matriz.jpg"
         }
     ]
 }
