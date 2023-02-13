@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { GestionRoutingModule } from './gestion-routing.module';
 import { GestionComponent } from './gestion.component';
 
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,16 @@ import { GestionComponent } from './gestion.component';
   ],
   imports: [
     CommonModule,
-    GestionRoutingModule
+    GestionRoutingModule,
+    ReactiveFormsModule
   ]
 })
 export class GestionModule { }
+
+export interface discoRegister {
+  name: string;
+  price: string;
+  author: string;
+  stars: string;
+  image: string;
+}
