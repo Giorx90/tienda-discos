@@ -17,11 +17,3 @@ import { ReactiveFormsModule } from '@angular/forms';
   ]
 })
 export class GestionModule { }
-
-export interface discoRegister {
-  name: string;
-  price: string;
-  author: string;
-  stars: string;
-  image: string;
-}

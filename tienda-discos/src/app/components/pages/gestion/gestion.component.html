@@ -1,1 +1,10 @@
-<p>gestion works!</p>
+<form [formGroup]="discoRegister" (ngSubmit)="onSubmit()">
+    <input formControlName="name" placeholder="Título"/>
+    <input formControlName="author" placeholder="author">
+    <input formControlName="image" placeholder="image">
+    <input formControlName="price" placeholder="price">
+    <input formControlName="stars" placeholder="stars">
+
+    <button type="submit">Subir disco</button>
+
+</form>
