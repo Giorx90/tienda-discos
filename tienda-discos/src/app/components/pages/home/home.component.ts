@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ServicioService } from './../../../services/servicio.service';
 
 @Component({
   selector: 'app-home',
@@ -7,4 +8,17 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  //prueba para ver si el servicio funciona
+  discos: any [] = [];
+
+  constructor(private discosService:ServicioService){}
+
+  ngOnInit(): void {
+    this.discosService.getDiscos().subscribe((data:any)=>{
+      console.log(data);
+      
+    })
+  }
 }
+
+//FUNCIONAAAAAAA!!
