@@ -14,7 +14,7 @@
             "price": 29.05,
             "author": "Izal",
             "stars": 4,
-            "image": "./portadas/hogar.jpg"
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/df/22/6d/7152351/1540-1.jpg"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "price": 21.99,
             "author": "Rosalía",
             "stars": 5,
-            "image": "./portadas/motomami.jpg"
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/35/61/70/7364917/1540-1.jpg"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "price": 43.73,
             "author": "Florence + The Machine",
             "stars": 5,
-            "image": "./portadas/dance-Fever.jpg"
+            "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/e0/51/d9/14242272/1540-1/tsp20220310103153/Dance-Fever-Exclusivite-Fnac-Vinyle-Gris.jpg"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "price": 21.99,
             "author": "Vetusta Morla",
             "stars": 4,
-            "image": "./portadas/un-dia-en-el-mundo.jpg"
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/32/06/6b/7013938/1540-1.jpg"
         },
         {
             "id": 6,
@@ -46,7 +46,7 @@
             "price": 39.93,
             "author": "Stromae",
             "stars": 4.5,
-            "image": "./portadas/multitude.jpg"
+            "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/68/a8/bf/12560488/1540-1/tsp20211208104136/Multitude-Edition-Limitee.jpg"
         },
         {
             "id": 7,
@@ -54,7 +54,7 @@
             "price": 22.99,
             "author": "Xoel López",
             "stars": 4.5,
-            "image": "./portadas/atlantico.jpg"
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/41/76/65/6649409/1540-1.jpg"
         },
         {
             "id": 8,
@@ -62,7 +62,7 @@
             "price": 24.99,
             "author": "Nathy Peluso",
             "stars": 4.5,
-            "image": "./portadas/calambre.jpg"
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/58/fc/5d/6159448/1540-1.jpg"
         },
         {
             "id": 9,
@@ -70,7 +70,7 @@
             "price": 27.84,
             "author": "Jorge Drexler",
             "stars": 5,
-            "image": "./portadas/salvavidas-de-hielo.jpg"
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/80/7d/4a/4881792/1540-1.jpg"
         },
         {
             "id": 10,
@@ -78,7 +78,7 @@
             "price": 13.45,
             "author": "Rozalén",
             "stars": 4,
-            "image": "./portadas/matriz.jpg"
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/b0/49/79/7948720/1540-1.jpg"
         }
     ]
 }
