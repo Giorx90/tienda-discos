@@ -1,1 +1,2 @@
-lo primero que vais a instalar es este comando "npm i -g json-server" y una vez instalado lo único que tendremos que hacer es ejecutar este: "json-server --watch db.json"
+npm i -g json-server
+json-server --watch db.json
