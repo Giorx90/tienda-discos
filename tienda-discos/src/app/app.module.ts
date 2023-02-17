@@ -16,7 +16,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
   BrowserModule,

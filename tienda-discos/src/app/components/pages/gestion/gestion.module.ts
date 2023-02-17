@@ -5,10 +5,12 @@ import { GestionRoutingModule } from './gestion-routing.module';
 import { GestionComponent } from './gestion.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
   declarations: [
-    GestionComponent
+    GestionComponent,
+    DetailComponent
   ],
   imports: [
     CommonModule,

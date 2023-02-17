@@ -1,10 +1,16 @@
-<form [formGroup]="discoRegister" (ngSubmit)="onSubmit()">
-    <input formControlName="name" placeholder="Título"/>
-    <input formControlName="author" placeholder="author">
-    <input formControlName="image" placeholder="image">
-    <input formControlName="price" placeholder="price">
-    <input formControlName="stars" placeholder="stars">
+<div class="container">
 
-    <button type="submit">Subir disco</button>
+    <form [formGroup]="discoRegister" (ngSubmit)="onSubmit()">
+        <input formControlName="image" placeholder="image">
+        <input formControlName="name" placeholder="Título"/>
+        <input formControlName="author" placeholder="author">
+        <input formControlName="price" placeholder="price">
+        <input formControlName="stars" placeholder="stars">
 
-</form>
+        <button type="submit">Subir disco</button>
+
+    </form>
+    <app-detail [disco] = "newDisco"></app-detail>
+
+</div>
+
