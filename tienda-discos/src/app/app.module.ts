@@ -8,6 +8,8 @@ import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 import { ServicioService } from './services/servicio.service';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -17,10 +19,13 @@ import { ServicioService } from './services/servicio.service';
     FooterComponent,
   ],
   imports: [
-  BrowserModule,
+    BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ],
+    FormsModule,
+    ReactiveFormsModule
+  ],
+
   providers: [ServicioService],
   bootstrap: [AppComponent]
 })

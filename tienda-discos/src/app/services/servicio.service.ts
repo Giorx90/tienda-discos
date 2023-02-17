@@ -12,8 +12,21 @@ export class ServicioService {
 
   constructor(private http: HttpClient) {}
 
+  public discoData = {
+    id: "",
+    name: "",
+    price: "",
+    author: "",
+    stars: "",
+    image: ""
+  }
+
   getDiscos() {
     return this.http.get(this.dbjson)
+  }
+
+  postDisco(disco : any) {
+    return this.http.post(this.dbjson, disco)
   }
 
 }
