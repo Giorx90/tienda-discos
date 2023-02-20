@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
@@ -9,7 +9,9 @@ import { FooterComponent } from './components/footer/footer.component';
 
 import { ServicioService } from './services/servicio.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule} from '@angular/material/icon';
+import { RouterLinkActive } from '@angular/router';
 
 
 @NgModule({
@@ -17,16 +19,22 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppComponent,
     NavComponent,
     FooterComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+    RouterLinkActive
+    
   ],
 
   providers: [ServicioService],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

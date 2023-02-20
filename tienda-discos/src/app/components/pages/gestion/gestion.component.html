@@ -1,16 +1,27 @@
+
 <div class="container">
-
-    <form [formGroup]="discoRegister" (ngSubmit)="onSubmit()">
-        <input formControlName="image" placeholder="image">
-        <input formControlName="name" placeholder="Título"/>
-        <input formControlName="author" placeholder="author">
-        <input formControlName="price" placeholder="price">
-        <input formControlName="stars" placeholder="stars">
-
-        <button type="submit">Subir disco</button>
-
-    </form>
-    <app-detail [disco] = "newDisco"></app-detail>
-
+    <div class="disco__form">
+        <p>Rellena el formulario con los datos del nuevo disco y súbelo a nuestra colección</p>
+        <form [formGroup]="discoRegister" (ngSubmit)="onSubmit()">
+            <label for="image">Enlace imagen
+                <input type="text" id="image" formControlName="image" placeholder="image"/>
+            </label>
+            <label for="name">Título
+                <input  type="text" formControlName="name" placeholder="name"/>
+            </label>
+            <label for="author">Autor  
+                <input  type="text" formControlName="author" placeholder="author">
+            </label>
+            <label for="price">Precio 
+                <input  type="number" formControlName="price" placeholder="price">
+            </label>
+            <label for="stars">Puntuación (del 1 al 5) 
+            <input   type="number" formControlName="stars" placeholder="stars" required min="0" max="5">
+            </label>
+        </form>
+    </div>
+    <div class="disco__preview">
+        <app-detail [disco] = "newDisco"></app-detail>
+    </div>
 </div>
 

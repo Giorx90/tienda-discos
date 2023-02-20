@@ -1,0 +1,42 @@
+img {
+    width:200px;
+}
+
+.title {
+    text-transform: uppercase;
+    margin: 6px;
+}
+
+.author {
+    color: #9d3b48;
+    font-weight: 500;
+    margin: 6px;
+}
+.price {
+    margin: 6px;
+}
+
+.price:after {
+    margin: 6px;
+    content: "€";
+}
+
+.stars {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.stars:after {
+    content:"/5";
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.stars__icon {
+    color: #dbb809;
+}

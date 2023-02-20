@@ -1,10 +1,22 @@
 <header>
-    <img src="./assets/vinil-shop-logo.svg" alt="logotipo tienda de discos">
+    <img src="./assets/logo-music-store.svg" alt="logotipo tienda de discos">
     <ul>
-        <li><a routerLink="/home">Home</a></li>
-        <li><a routerLink="/productos">Colección de Discos</a></li>
-        <li><a routerLink="/gestion">Subir nuevo disco</a></li>
-    </ul>   
+        <li>
+            <a routerLink="/home" routerLinkActive="activo" [routerLinkActiveOptions]="{exact: true}">
+                <span class="material-icons">store</span> Home
+            </a>
+        </li>
+        <li>
+            <a routerLink="/productos" routerLinkActive="activo">
+                <span class="material-icons">library_music </span> Colección de Discos 
+            </a>
+        </li>
+        <li>
+            <a routerLink="/gestion" routerLinkActive="activo">
+                <span class="material-icons">library_add</span> Publicar nuevo disco
+            </a>
+        </li>
+    </ul>  
 </header>
 
 

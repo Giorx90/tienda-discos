@@ -23,10 +23,10 @@ discoRegister! : FormGroup;
 
   ngOnInit() :void {
     this.discoRegister = this.FormBuilder.group({
-      name:[this.newDisco.name,[Validators.required]],
+      name:[this.newDisco.name,[Validators.required,Validators.maxLength(30)]],
       price:[this.newDisco.price,[Validators.required]],
       author:[this.newDisco.author,[Validators.required]],
-      stars:[this.newDisco.stars,[Validators.required]],
+      stars:[this.newDisco.stars,[Validators.required,Validators.min(0),Validators.max(5)]],
       image:[this.newDisco.image,[Validators.required]],
     });
 

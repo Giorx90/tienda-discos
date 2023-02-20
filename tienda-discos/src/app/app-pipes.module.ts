@@ -4,7 +4,7 @@ import { FilterPipe } from './pipes/filter.pipe';
 
 @NgModule({
     imports: [],
-declarations: [
+    declarations: [
         FilterPipe
     ],
     exports: [

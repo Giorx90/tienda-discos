@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { FormatoDisco } from '../models/interfaces';
 
 // @Injectable({
 //   providedIn: 'root'
@@ -13,19 +14,19 @@ export class ServicioService {
   constructor(private http: HttpClient) {}
 
   public discoData = {
-    id: "",
-    name: "",
-    price: "",
-    author: "",
-    stars: "",
-    image: ""
+    id: 0,
+    name: "Título",
+    price: 0,
+    author: "Autor",
+    stars: 0,
+    image: "./assets/disco-vinilo.jpg"
   }
 
   getDiscos() {
     return this.http.get(this.dbjson)
   }
 
-  postDisco(disco : any) {
+  postDisco(disco : FormatoDisco) {
     return this.http.post(this.dbjson, disco)
   }
 

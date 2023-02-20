@@ -1,20 +1,24 @@
+<div class="container">
 <div class = "titulo-buttons">
     <p>Lista de productos ({{discos.length}})</p>
     <div>
-        <button (click)="turntoGrid()"><img src="../../../../assets/icon-grid.png" alt=""></button>
-        <button (click)="turntoList()"><img src="../../../../assets/icon-list.png" alt=""></button>
+        <button (click)="turntoGrid()"><span class="material-icons">grid_view</span></button>
+        <button (click)="turntoList()"><span class="material-icons">view_list</span></button>
     </div>
 </div>
 
+<div class="buscador">
 <input type="text" placeholder="Buscador">
+</div>
+
 
 <div *ngIf="grid; else list" class="productos-grid">
     <div class="disco-grid" *ngFor="let disco of discos">
-        <p>{{disco.name}}</p>
         <img src="{{disco.image}}" alt="{{disco.name}}">
-        <p>{{disco.price}}</p>
-        <p>{{disco.author}}</p>
-        <p>{{disco.stars}}</p>
+        <h4 class="title">{{disco.name}}</h4>
+        <p class="author">{{disco.author}}</p>
+        <p class="price">{{disco.price}}</p>
+        <p class="stars"><span class="material-icons stars__icon">grade</span>{{disco.stars}}</p>
     </div>
 </div>
 
@@ -23,11 +27,13 @@
     <div class="disco-list" *ngFor="let disco of discos">
         <img src="{{disco.image}}" alt="{{disco.name}}">
         <ul>
-            <li>{{disco.name}}</li>
-            <li>{{disco.price}}</li>
-            <li>{{disco.author}}</li>
-            <li>{{disco.stars}}</li>
+            <li class="title">{{disco.name}}</li>
+            <li class="author">{{disco.author}}</li>
+            <li class="price">{{disco.price}}</li>
+            <li class="stars"><span class="material-icons stars__icon">grade</span>{{disco.stars}}</li>
         </ul>
     </div>
 </div>
 </ng-template>
+
+</div>
