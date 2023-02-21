@@ -11,12 +11,11 @@ export class ProductosComponent {
 
   discos: FormatoDisco [] = [];
   grid: boolean = true;
-  filteredDiscos: any = "";
+  filteredDiscos: FormatoDisco [] = [];
   filter: string;
 
   constructor(private discosService:ServicioService){
     this.filter = "";
-    this.filteredDiscos = this.discos;
   }
 
   ngOnInit(): void {
@@ -32,11 +31,5 @@ export class ProductosComponent {
   turntoList(){
     this.grid=false
   }
-
-  // onChangeFilter(filter: string) {
-  //   const newList: string[] = this.discos.name.filter(el => el.toLowerCase().includes(filter.trim().toLowerCase()));
-  //   this.filteredDiscos = newList;
-  // }
-
 
 }

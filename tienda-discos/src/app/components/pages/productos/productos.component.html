@@ -8,12 +8,12 @@
 </div>
 
 <div class="buscador">
-<input type="text" placeholder="Buscador">
+<input type="text" placeholder="Buscador" [(ngModel)]="filter">
 </div>
 
 
 <div *ngIf="grid; else list" class="productos-grid">
-    <div class="disco-grid" *ngFor="let disco of discos">
+    <div class="disco-grid" *ngFor="let disco of discos | filter: filter">
         <img src="{{disco.image}}" alt="{{disco.name}}">
         <h4 class="title">{{disco.name}}</h4>
         <p class="author">{{disco.author}}</p>
@@ -24,7 +24,7 @@
 
 <ng-template #list>
 <div class="productos-list">
-    <div class="disco-list" *ngFor="let disco of discos">
+    <div class="disco-list" *ngFor="let disco of discos| filter: filter">
         <img src="{{disco.image}}" alt="{{disco.name}}">
         <ul>
             <li class="title">{{disco.name}}</li>

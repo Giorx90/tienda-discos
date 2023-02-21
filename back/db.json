@@ -1,108 +1,108 @@
 {
-  "discos": [
-    {
-      "id": 1,
-      "name": "Folklore",
-      "price": 37.86,
-      "author": "Taylor Swift",
-      "stars": 4,
-      "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/7f/1c/c0/12590207/1540-1/tsp20201001081143/Folklore-Edition-Limitee.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Hogar",
-      "price": 29.05,
-      "author": "Izal",
-      "stars": 4,
-      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/df/22/6d/7152351/1540-1.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Motomami",
-      "price": 21.99,
-      "author": "Rosalía",
-      "stars": 5,
-      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/35/61/70/7364917/1540-1.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Dance Fever",
-      "price": 43.73,
-      "author": "Florence + The Machine",
-      "stars": 5,
-      "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/e0/51/d9/14242272/1540-1/tsp20220310103153/Dance-Fever-Exclusivite-Fnac-Vinyle-Gris.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Un día en el mundo",
-      "price": 21.99,
-      "author": "Vetusta Morla",
-      "stars": 4,
-      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/32/06/6b/7013938/1540-1.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Multitude",
-      "price": 39.93,
-      "author": "Stromae",
-      "stars": 4.5,
-      "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/68/a8/bf/12560488/1540-1/tsp20211208104136/Multitude-Edition-Limitee.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Atlántico",
-      "price": 22.99,
-      "author": "Xoel López",
-      "stars": 4.5,
-      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/41/76/65/6649409/1540-1.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Calambre",
-      "price": 24.99,
-      "author": "Nathy Peluso",
-      "stars": 4.5,
-      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/58/fc/5d/6159448/1540-1.jpg"
-    },
-    {
-      "id": 9,
-      "name": "Salvavidas de hielo",
-      "price": 27.84,
-      "author": "Jorge Drexler",
-      "stars": 5,
-      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/80/7d/4a/4881792/1540-1.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Matriz",
-      "price": 13.45,
-      "author": "Rozalén",
-      "stars": 4,
-      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/b0/49/79/7948720/1540-1.jpg"
-    },
-    {
-      "name": "Harry's House",
-      "price": 29.99,
-      "author": " Harry Styles",
-      "stars": 4.5,
-      "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/e4/ed/d9/14282212/1540-1/tsp20220331180115/Harry-s-House-Exclusivite-Fnac-Vinyle-Jaune.jpg",
-      "id": 11
-    },
-    {
-      "name": "Manual de cortejo",
-      "price": 22.45,
-      "author": "Rodrigo Cuevas",
-      "stars": 4,
-      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/a5/47/55/5588901/1540-1.jpg",
-      "id": 12
-    },
-    {
-      "name": "Only By the Night ",
-      "price": 29.11,
-      "author": "Kings Of Leon",
-      "stars": 4,
-      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/cd/81/11/1147341/1540-1.jpg",
-      "id": 13
-    }
-  ]
+    "discos": [
+        {
+            "id": 1,
+            "name": "Folklore",
+            "price": 37.86,
+            "author": "Taylor Swift",
+            "stars": 4,
+            "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/7f/1c/c0/12590207/1540-1/tsp20201001081143/Folklore-Edition-Limitee.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Hogar",
+            "price": 29.05,
+            "author": "Izal",
+            "stars": 4,
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/df/22/6d/7152351/1540-1.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Motomami",
+            "price": 21.99,
+            "author": "Rosalía",
+            "stars": 5,
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/35/61/70/7364917/1540-1.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Dance Fever",
+            "price": 43.73,
+            "author": "Florence + The Machine",
+            "stars": 5,
+            "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/e0/51/d9/14242272/1540-1/tsp20220310103153/Dance-Fever-Exclusivite-Fnac-Vinyle-Gris.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Un día en el mundo",
+            "price": 21.99,
+            "author": "Vetusta Morla",
+            "stars": 4,
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/32/06/6b/7013938/1540-1.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Multitude",
+            "price": 39.93,
+            "author": "Stromae",
+            "stars": 4.5,
+            "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/68/a8/bf/12560488/1540-1/tsp20211208104136/Multitude-Edition-Limitee.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Atlántico",
+            "price": 22.99,
+            "author": "Xoel López",
+            "stars": 4.5,
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/41/76/65/6649409/1540-1.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Calambre",
+            "price": 24.99,
+            "author": "Nathy Peluso",
+            "stars": 4.5,
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/58/fc/5d/6159448/1540-1.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Salvavidas de hielo",
+            "price": 27.84,
+            "author": "Jorge Drexler",
+            "stars": 5,
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/80/7d/4a/4881792/1540-1.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Matriz",
+            "price": 13.45,
+            "author": "Rozalén",
+            "stars": 4,
+            "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/b0/49/79/7948720/1540-1.jpg"
+        },
+        {
+          "name": "Harry's House",
+          "price": 29.99,
+          "author": " Harry Styles",
+          "stars": 4.5,
+          "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/e4/ed/d9/14282212/1540-1/tsp20220331180115/Harry-s-House-Exclusivite-Fnac-Vinyle-Jaune.jpg",
+          "id": 11
+        },
+        {
+          "name": "Manual de cortejo",
+          "price": 22.45,
+          "author": "Rodrigo Cuevas",
+          "stars": 4,
+          "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/a5/47/55/5588901/1540-1.jpg",
+          "id": 12
+        },
+        {
+          "name": "Only By the Night ",
+          "price": 29.11,
+          "author": "Kings Of Leon",
+          "stars": 4,
+          "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/cd/81/11/1147341/1540-1.jpg",
+          "id": 13
+        }
+    ]
 }

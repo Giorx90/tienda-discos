@@ -1,7 +1,9 @@
 import { NgModule, Pipe } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import { ProductosRoutingModule } from './productos-routing.module';
+import { PipesModule } from './../../../pipes/pipes.module';
+import { FormsModule } from '@angular/forms';
+
 import { ProductosComponent } from './productos.component';
 
 
@@ -12,7 +14,9 @@ import { ProductosComponent } from './productos.component';
 
   imports: [
     CommonModule,
-    ProductosRoutingModule
+    ProductosRoutingModule, 
+    PipesModule, 
+    FormsModule,
   ]
 })
 export class ProductosModule { }
