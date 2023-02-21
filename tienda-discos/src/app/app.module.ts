@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { PipesModule } from './pipes/pipes.module';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
@@ -19,11 +20,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
   ],
   imports: [
-    BrowserModule,
+  BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    PipesModule
   ],
 
   providers: [ServicioService],

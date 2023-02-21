@@ -1,15 +1,15 @@
 <div class = "titulo-buttons">
     <p>Lista de productos ({{discos.length}})</p>
     <div>
-        <button (click)="turntoGrid()"><img src="../../../../assets/icon-grid.png" alt=""></button>
-        <button (click)="turntoList()"><img src="../../../../assets/icon-list.png" alt=""></button>
+        <button (click)="turntoGrid()"><img src="./assets/icon-grid.png" alt=""></button>
+        <button (click)="turntoList()"><img src="./assets/icon-list.png" alt=""></button>
     </div>
 </div>
 
-<input type="text" placeholder="Buscador">
+<input type="text" placeholder="Buscador" [(ngModel)]="filter">
 
 <div *ngIf="grid; else list" class="productos-grid">
-    <div class="disco-grid" *ngFor="let disco of discos">
+    <div class="disco-grid" *ngFor="let disco of discos | filter: filter">
         <p>{{disco.name}}</p>
         <img src="{{disco.image}}" alt="{{disco.name}}">
         <p>{{disco.price}}</p>
@@ -20,7 +20,7 @@
 
 <ng-template #list>
 <div class="productos-list">
-    <div class="disco-list" *ngFor="let disco of discos">
+    <div class="disco-list" *ngFor="let disco of discos| filter: filter">
         <img src="{{disco.image}}" alt="{{disco.name}}">
         <ul>
             <li>{{disco.name}}</li>
